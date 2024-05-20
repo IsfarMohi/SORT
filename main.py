@@ -52,6 +52,7 @@ while True:
     cv2.imshow("RGB", frame)
     if cv2.waitKey(1) & 0xFF == 27:
         break
+ hoswowo
 
 cap.release()
 cv2.destroyAllWindows()
